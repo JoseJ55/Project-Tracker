@@ -1,4 +1,4 @@
-root: {
+:root {
     --darkblue: rgb(45, 56, 78);
     --white: white;
     --bright-red: rgb(238, 52, 52);
@@ -10,4 +10,27 @@ root: {
 
 body {
     font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: var(--darkblue);
+    color: var(--white);
+    width: 100%;
+    text-align: center;
+}
+
+.nav-header h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.time-date {
+    font-size: 20px;
+    margin: 0px;
 }
