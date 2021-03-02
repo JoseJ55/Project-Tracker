@@ -1,0 +1,13 @@
+root: {
+    --darkblue: rgb(45, 56, 78);
+    --white: white;
+    --bright-red: rgb(238, 52, 52);
+}
+
+
+/*<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet"> */
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
